@@ -1,0 +1,38 @@
+.about {
+  background-color: #112240;
+  color: #ccd6f6;
+  padding: 4rem 2rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #64ffda;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.about-image img {
+  width: 250px;
+  border-radius: 12px;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+}
